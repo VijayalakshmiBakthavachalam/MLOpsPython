@@ -22,11 +22,11 @@
     },
     "storageAccount": {
       "type": "string",
-      "defaultValue": "[concat(toLower(parameters('baseName')), 'amlsatrial2')]"
+      "defaultValue": "[concat(toLower(parameters('baseName')), 'amlsatrial3')]"
     },
     "keyvault": {
       "type": "string",
-      "defaultValue": "[concat(parameters('baseName'),'-AML-KVTRIAL2')]"
+      "defaultValue": "[concat(parameters('baseName'),'-AML-KVTRIAL3')]"
     },
     "appInsights": {
       "type": "string",
@@ -34,7 +34,7 @@
     },
     "acr": {
       "type": "string",
-      "defaultValue": "[concat(toLower(parameters('baseName')),'amlcrtrial2')]"
+      "defaultValue": "[concat(toLower(parameters('baseName')),'amlcrtrial3')]"
     },
     "sku": {
       "type": "string",
