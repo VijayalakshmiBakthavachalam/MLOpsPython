@@ -26,7 +26,7 @@
     },
     "keyvault": {
       "type": "string",
-      "defaultValue": "[concat(parameters('baseName'),'-AML-KVTRIAL3')]"
+      "defaultValue": "[concat(parameters('baseName'),'-AML-KVTRIAL')]"
     },
     "appInsights": {
       "type": "string",
@@ -34,7 +34,7 @@
     },
     "acr": {
       "type": "string",
-      "defaultValue": "[concat(toLower(parameters('baseName')),'amlcrtrial3')]"
+      "defaultValue": "[concat(toLower(parameters('baseName')),'amlcrtrial')]"
     },
     "sku": {
       "type": "string",
